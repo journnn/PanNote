@@ -17,5 +17,11 @@
         <br>
         <button id="signupBtn">Sign up</button>
     </div>
+    
+<script>
+    document.getElementById("signupBtn").onclick = function() {
+        window.location.href = "signup.html";
+    }
+</script>
 </body>
 </html>
