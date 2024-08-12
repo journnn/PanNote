@@ -20,7 +20,7 @@
     
 <script>
     document.getElementById("signupBtn").onclick = function() {
-        window.location.href = "signup.html";
+        window.location.href = "signup.php";
     }
 </script>
 </body>
