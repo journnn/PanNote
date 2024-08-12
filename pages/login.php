@@ -9,7 +9,7 @@
 <body>
     <div class="form-container">
         <img src="" alt="Pa-Note Logo">
-        <form id="loginForm" action="login.php" method="POST">
+        <form id="loginForm" action="authenticate.php" method="POST">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit">Log in</button>
