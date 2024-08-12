@@ -10,7 +10,7 @@
     <div class="form-container">
         <h3>Start for free</h3>
         <h1>Create new account</h1>
-        <form id="signup" action="signup.php" method="POST">
+        <form id="signup" action="register.php" method="POST">
             <input type="text" name="Firstname" placeholder="firstname" required>
             <input type="email" name="Email" placeholder="email" required>
             <input type="password" name="password" placeholder="Password" required>
