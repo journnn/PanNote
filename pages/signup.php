@@ -17,11 +17,8 @@
         </form>
         <br>
         <button id="signupBtn">Sign up</button>
+         <a href="signin.php">Sign in</a>
     </div>
-    <script>
-    document.getElementById("signupBtn").onclick = function() {
-        window.location.href = "login.php";
-    }
-</script>
+  
 </body>
 </html>
