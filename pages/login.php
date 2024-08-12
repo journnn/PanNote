@@ -15,10 +15,7 @@
             <button type="submit">Log in</button>
         </form>
         <br>
-        <!-- Signup button redirects to signup.php -->
         <button id="signupBtn" onclick="window.location.href='signup.php';">Sign up</button>
-        <!-- Log in link redirects to login.php -->
-        <a href="login.php">Log in</a> 
     </div>
 </body>
 </html>
