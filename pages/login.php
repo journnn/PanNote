@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="form-container">
-        <img src="../assets/logo.png" alt="Pa-Note Logo">
+        <img src="" alt="Pa-Note Logo">
         <form id="loginForm" action="login.php" method="POST">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
