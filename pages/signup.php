@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="form-container">
-        <h3>Start for free</h3>
+        <h4>Start for free</h4>
         <h1>Create new account</h1>
         <form id="signup" action="signup.php" method="POST">
-            <input type="text" name="Firstname" placeholder="firstname" required>
-            <input type="email" name="Email" placeholder="email" required>
-            <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="Firstname" placeholder="Firstname" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="password" name="Password" placeholder="Password" required>
         </form>
         <br>
         <button id="signupBtn">Sign up</button>
