@@ -14,11 +14,12 @@
             <input type="text" name="Firstname" placeholder="firstname" required>
             <input type="email" name="Email" placeholder="email" required>
             <input type="password" name="password" placeholder="Password" required>
+            <!-- Sign up button inside the form to submit it -->
+            <button id="signupBtn" type="submit">Sign up</button>
         </form>
         <br>
-        <button id="signupBtn">Sign up</button>
-         <a href="signin.php">Sign in</a>
+        <!-- Sign in link to redirect to signin.php -->
+        <a href="signin.php">Sign in</a>
     </div>
-  
 </body>
 </html>
