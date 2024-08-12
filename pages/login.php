@@ -17,5 +17,6 @@
         <br>
         <button id="signupBtn">Sign up</button>
     </div>
+        <a href="login.php">Log in</a>
 </body>
 </html>
