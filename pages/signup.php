@@ -18,5 +18,10 @@
         <br>
         <button id="signupBtn">Sign up</button>
     </div>
+    <script>
+    document.getElementById("signupBtn").onclick = function() {
+        window.location.href = "login.php";
+    }
+</script>
 </body>
 </html>
