@@ -15,7 +15,8 @@
             <button type="submit">Log in</button>
         </form>
         <br>
-        <a href="login.php">Log in</a>
+        <button id="signupBtn">Sign up</button>
+        <a href="login.php">Log in</a> 
     </div>
     
 
