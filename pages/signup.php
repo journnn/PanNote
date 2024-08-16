@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/signup.css" type="text/css" media="all" />
-    <title>PanNote</title>
+    <title>Signup</title>
 </head>
 <body>
-    <div class="form-container">
-        <h3>Start for free</h3>
-        <h1>Create new account</h1>
-        <form id="signup" action="register.php" method="POST">
-            <input type="text" name="Firstname" placeholder="firstname" required>
-            <input type="email" name="Email" placeholder="email" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <!-- Sign up button inside the form to submit it -->
-            <button id="signupBtn" type="submit">Sign up</button>
-        </form>
-        <br>
-       <button id="signupBtn" onclick="window.location.href='login.php';">Log in</button>
-    </div>
+    <h3>Start for Free</h3>
+    <h2>Create a new one</h2>
+    <form action="register.php" method="POST">
+     
+        <input type="text" name="firstname" placeholder="Firstname" required><br><br>
+
+        <input type="text" name="lastname" placeholder="Lastname" required><br><br>
+        
+        <input type="email" name="email" placeholder="Email" required><br><br>
+        
+        <input type="password" name="password" placeholder="Password" required><br><br>
+
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" required><br><br>
+        
+        <button type="submit">Register</button>
+    </form>
+
+    <a href="login.php">Login</a>
 </body>
 </html>
